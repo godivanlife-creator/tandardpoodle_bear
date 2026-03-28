@@ -66,10 +66,13 @@ border-radius:50%;
 overflow:hidden;
 margin:auto;
 border:4px solid rgba(255,255,255,0.4);
-display:flex;
-align-items:center;
-justify-content:center;
-font-size:50px;
+}
+
+.avatar-ring img{
+width:100%;
+height:100%;
+object-fit:cover;
+border-radius:50%;
 }
 
 .hero h1{
@@ -143,7 +146,9 @@ margin-top:12px;
 
 <!-- HERO -->
 <div class="hero">
-<div class="avatar-ring">🐩</div>
+<div class="avatar-ring">
+<img src="https://raw.githubusercontent.com/godivanlife-creator/tandardpoodle_bear/main/IMG_0456.jpg" alt="Bear">
+</div>
 <h1>Bear</h1>
 <div class="breed-tag">Standard Poodle</div>
 </div>
@@ -180,7 +185,7 @@ const i18n={
 zh:{
 warning:"⚠️ 很貪吃，請不要餵食！",
 featureTitle:"🐾 外型特徵",
-feature:"大貴賓 · 胸口有白毛",
+feature:"大貴賓 · 胸口白毛",
 personalityTitle:"🐾 個性",
 personality:"親人 · 不親狗",
 call1:"📞 聯絡主人 1",
